@@ -1,0 +1,76 @@
+body{font-family:"Open Sans",Arial;color:#454545;font-size:16px;margin:2em auto;max-width:800px;padding:1em;line-height:1.4;text-align:justify}
+.subtitle{margin-top:-1em} 
+.mfw{color:#730000}
+.wrong{color:#c0392b;font-weight:600;text-decoration:underline}
+a{color:#00a2e7}
+a:visited{color:#ca1a70}
+small{font-size:.4em}
+.sb{color:#00e}
+.sv{color:#551a8b}
+.sb{cursor:not-allowed}
+.sv{cursor:not-allowed}
+ul li img{height:1em}
+.fakepre{font-family:monospace;font-size:.9em}
+.kopimi{display:block;margin-left:auto;margin-right:auto;height:2em}
+.fff{color:#444;font-weight:700}
+.fff:before{content:"";display:inline-block;width:1em;height:1em;margin-left:.2em;margin-right:.2em;background-color:#444}
+.fortyfive{color:#454545;font-weight:700}
+.fortyfive:before{content:"";display:inline-block;width:1em;height:1em;margin-left:.2em;margin-right:.2em;background-color:#454545}
+div.position div.cat{float:left;width:40%;overflow:hidden;margin-right:1em} 
+div.position  div.cat img{width:100%}
+div.position div.cat figure{margin:10px}
+div.position div.cat figure figcaption{font-size:.7em}
+div.position div.tleft{float:left;width:55%} 
+div.position div.tleft p:first-child{margin-top:0} 
+div.position:after{display:block;content:"";clear:both}blockquote{color:#456;margin-left:0;margin-top:2em;margin-bottom:2em}blockquote span{float:left;margin-left:1rem;padding-top:1rem}blockquote author{display:block;clear:both;font-size:.6em;margin-left:2.4rem;font-style:oblique}blockquote author:before{content:"- ";margin-right:1em}blockquote:before{font-family:Times New Roman,Times,Arial;color:#666;content:open-quote;font-size:2.2em;font-weight:600;float:left;margin-top:0;margin-right:.2rem;width:1.2rem}blockquote:after{content:"";display:bloc}
+.citneed{vertical-align:top;font-size:.7em;padding-left:.3em}
+.visited{color:#941352}
+.visited-maroon{color:#85144b} 
+.contrast body{color:#050505} 
+.contrast blockquote{color:#11151a} 
+.contrast blockquote:before{color:#262626} 
+.contrast a{color:#0051c9}
+.contrast a:visited{color:#7d013e} 
+.contrast span.wr{color:#800}
+.contrast span.mfw{color:#4d0000}@media screen and (prefers-color-scheme:light) 
+{.inverted{background-color:#000}
+.inverted body{color:#d9d9d9} 
+.inverted div#contrast, 
+.inverted div#invmode{color:#fff;background-color:#000}
+.inverted  blockquote{color:#d3c9be}
+.inverted blockquote:before{color:#b8b8b8}
+.inverted a{color:#00a2e7}
+.inverted a:visited{color:#ca1a70} 
+.inverted span.wr{color:#d24637} 
+.inverted span.mfw{color:#b00000} 
+.inverted.contrast{background-color:#000} 
+.inverted.contrast body{color:#fff} 
+.inverted.contrast div#contrast, 
+.inverted.contrast div#invmode{color:#fff;background-color:#000} 
+.inverted.contrast blockquote{color:#f8f6f5} 
+.inverted.contrast blockquote:before{color:#e5e5e5} 
+.inverted.contrast a{color:#44c7ff} 
+.inverted.contrast a:visited{color::#e9579e}
+.inverted.contrast span.wr{color:#db695d}
+.inverted.contrast span.mfw{color:#ff0d0d}}@media (prefers-color-scheme:dark)
+{:not(.inverted){background-color:#000}
+:not(.inverted) body{color:#d9d9d9}
+:not(.inverted) div#contrast,
+:not(.inverted) div#invmode{color:#fff;background-color:#000}
+:not(.inverted) a:visited{color:#ca1a70}
+:not(.inverted) span.wr{color:#d24637}
+:not(.inverted) span.mfw{color:#b00000}
+:not(.inverted).contrast{background-color:#000}
+:not(.inverted).contrast body{color:#fff}
+:not(.inverted).contrast div#contrast,
+:not(.inverted).contrast div#invmode{color:#fff;background-color:#000}
+:not(.inverted).contrast blockquote{color:#f8f6f5}
+:not(.inverted).contrast 
+blockquote:before{color:#e5e5e5}
+:not(.inverted).contrast a{color:#44c7ff}
+:not(.inverted).contrast a:visited{color:#e9579e}
+:not(.inverted).contrast span.wr{color:#db695d}
+:not(.inverted).contrast span.mfw{color:#ff0d0d}
+.inverted{background-color:#fefefe}}a{color:#07a}a:visited{color:#941352}.noselect{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+div#contrast{color:#000;top:10px}div#contrast,div#invmode{cursor:pointer;position:fixed;right:10px;font-size:.8em;text-decoration:underline;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+div#invmode{color:#fff;background-color:#000;top:34px;padding:2px 5px}@media screen and (max-width:1080px){div#contrast,div#invmode{position:absolute}}
